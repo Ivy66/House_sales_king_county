@@ -23,7 +23,15 @@ Before analyzing the data, Here are the steps i took to clean up the data:
 * Converted some columns from string to numeric data types 
 
 **Visualization**
-After cleaning the data, I created some visualizations to better understand the data. I created a Histogram, Boxplot and scatter plots to visaulize the distribution of various features in the dataset such as home price, square footage and number of bedrooms
+After cleaning the data, I created some visualizations to better understand the data. I created a Histogram, Boxplot and scatter plots to visaulize the distribution of various features in the dataset such as home price, square footage and number of bedrooms.
+
+**Results**
+The analysis shows that the keyfactors influencing housing prices in kings county as the size of the house, the location of the house, and the overall condion of the property.
+I made a Ridge regression model which had an R squared value of around 0.70 on the holdout datase.
+
+**Conclusion**
+The analysis developed can be used to inform pricing decisions for homes in the area. The ridge regression model developed can be used to estimate the price of the house based 
+on its features with a reasonable accuracy.
 
 
 
